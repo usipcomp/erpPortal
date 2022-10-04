@@ -17,7 +17,7 @@ const BaseUser = new Schema({
     ,adress: {
         type:  String,
         required: true,
-        unique: true
+        unique: false
     }
     ,mailID: {
         type:  String,
@@ -27,7 +27,7 @@ const BaseUser = new Schema({
     ,Mobile: {
         type:  String,
         required: true,
-        unique: true
+        unique: false
     }
     ,Course: {
         type:  String,
@@ -40,53 +40,46 @@ const BaseUser = new Schema({
         unique: false
     }
     ,AadharNo: {
-        type:  String,
+        type:  Number,
         required: true,
         unique: true
     }
     ,CorrAdress: {
         type:  String,
         required: true,
-        unique: true
+        unique: false
     }
     ,postalCode: {
-        type: String,
+        type: Number,
         required: false,
-        unique: true
-    }
-    ,feesPaid: {
-        type:  Boolean,
-        required: true,
         unique: false
     }
     ,dueFee: {
         type:  Int32Array,
-        required: true,
+        default : 0,
         unique: false
     }
     ,Nationality: {
         type:  String,
-        required: true,
+        default :Indian,
         unique: false
     }
     ,Hostel: {
         type:  Boolean,
-        required: false,
+        default :false,
         unique: false
     }
     ,AnnualIncome: {
         type:  String,
-        required: true,
         unique: false
     }
     ,City: {
         type:  String,
-        required: true,
         unique: false
     }
     ,Password: {
         type:  String,
         required: true,
-        unique: true
+        unique: false
     }
 });
