@@ -1,4 +1,6 @@
-const BaseUser = new Schema({
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+const StudentSchema = new Schema({
     roll_no: {
         type:  String,
         required: true,
@@ -83,3 +85,6 @@ const BaseUser = new Schema({
         unique: false
     }
 });
+
+
+module.exports = mongoose.model('Student',StudentSchema);
