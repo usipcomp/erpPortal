@@ -1,0 +1,37 @@
+[
+  {
+    "roll_no": 27,
+    "Name": "Ravi",
+    "FatherName": "Mukesh",
+    "address": "Delhi",
+    "Mobile": "9032842093",
+    "Course": "BTech",
+    "AadharNo": "7474 3730 2702",
+    "CorrAddress": "Delhi",
+    "postalCode": "110142",
+    "dueFee": "0",
+    "Nationality": "Indian",
+    "Hostel": "APJ",
+    "AnnualIncome": "1200000",
+    "City": "Delhi",
+    "Password": "DtuSahiMeBekarHai"
+  },
+
+  {
+    "roll_no": 59,
+    "Name": "Yash",
+    "FatherName": "Neeraj",
+    "address": "Delhi",
+    "Mobile": "3249872349",
+    "Course": "BTech",
+    "AadharNo": "1234 5678 9123",
+    "CorrAddress": "Delhi",
+    "postalCode": "110142",
+    "dueFee": "0",
+    "Nationality": "Indian",
+    "Hostel": "BCH",
+    "AnnualIncome": "200000",
+    "City": "Delhi",
+    "Password": "DtuSahiMeBekarHaiXD"
+  }
+]
