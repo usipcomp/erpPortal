@@ -16,7 +16,7 @@ const StudentSchema = new Schema({
         required: true,
         unique: false
     }
-    ,adress: {
+    ,address: {
         type:  String,
         required: true,
         unique: false
