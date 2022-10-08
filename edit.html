@@ -14,53 +14,53 @@
       <form action="/register" method="post">
         <div class="mb-3">
           <label for="roll_no" class="form-label">Roll Number</label>
-          <input type="text" class="form-control" id="roll_no" name="student[roll_no]" value="" required>
+          <input type="text" class="form-control" id="roll_no" name="student[roll_no]" value="<%=student.roll_no %>" required>
         </div>
         <div class="mb-3">
           <label for="Name" class="form-label">Name</label>
-          <input type="text" class="form-control" id="Name" name="student[Name]" value="" required>
+          <input type="text" class="form-control" id="Name" name="student[Name]" value="<%=student.name %>" required>
         </div>
         <div class="mb-3">
           <label for="FatherName" class="form-label">Father's Name</label>
-          <input type="text" class="form-control" id="FatherName" name="student[FatherName]" value="" required>
+          <input type="text" class="form-control" id="FatherName" name="student[FatherName]" value="<%=student.FatherName %>" required>
         </div>
         <div class="mb-3">
           <label for="address" class="form-label">Address</label><br>
-          <textarea id="address" name="student[address]" rows="4" cols="50" value="" required></textarea>
-          <!-- <input type="text" class="form-control" id="roll_no" name="student[roll_no]" value="" required> -->
+          <textarea id="address" name="student[address]" rows="4" cols="50" value="<%=student.address %>" required></textarea>
+          <!-- <input type="text" class="form-control" id="roll_no" name="student[roll_no]" value="<%=student.address %>" required> -->
         </div>
         <div class="mb-3">
           <label for="mailID" class="form-label">Email ID</label>
-          <input type="email" class="form-control" id="mailID" name="student[mailID]" value="" required>
+          <input type="email" class="form-control" id="mailID" name="student[mailID]" value="<%=student.mailID %>" required>
         </div>
         <div class="mb-3">
           <label for="Mobile" class="form-label">Mobile Number</label>
-          <input type="number" class="form-control" id="Mobile" name="student[Mobile]" maxlength="10" value="" required>
+          <input type="number" class="form-control" id="Mobile" name="student[Mobile]" maxlength="10" value="<%=student.Mobile %>" required>
         </div>
         <div class="mb-3">
           <label for="Mobile2" class="form-label">Mobile Number (Secondary)</label>
-          <input type="number" class="form-control" id="Mobile2" name="student[Mobile2]" maxlength="10" value="" required>
+          <input type="number" class="form-control" id="Mobile2" name="student[Mobile2]" maxlength="10" value="<%=student.Mobile2 %>" required>
         </div>
         <div class="mb-3">
           <label for="Course" class="form-label">Course</label>
-          <input type="text" class="form-control" id="Course" name="student[Course]" value="" required>
+          <input type="text" class="form-control" id="Course" name="student[Course]" value="<%=student.Course %>" required>
         </div>
         <div class="mb-3">
           <label for="branch" class="form-label">Branch (Discipline)</label>
-          <input type="text" class="form-control" id="branch" name="student[branch]" value="" required>
+          <input type="text" class="form-control" id="branch" name="student[branch]" value="<%=student.branch %>" required>
         </div>
         <div class="mb-3">
           <label for="AadharNo" class="form-label">Aadhar Number</label>
-          <input type="number" class="form-control" id="AadharNo" name="student[AadharNo]" maxlength="12" value="" required>
+          <input type="number" class="form-control" id="AadharNo" name="student[AadharNo]" maxlength="12" value="<%=student.AadharNo %>" required>
         </div>
         <div class="mb-3">
           <label for="CorrAdress" class="form-label">Correspondence Address</label><br>
-          <textarea id="CorrAdress" name="student[CorrAdress]" rows="4" cols="50" value="" required></textarea>
-          <!-- <input type="text" class="form-control" id="caddress" name="student[caddress]" value="" required> -->
+          <textarea id="CorrAdress" name="student[CorrAdress]" rows="4" cols="50" value="<%=student.CorrAdress %>" required></textarea>
+          <!-- <input type="text" class="form-control" id="caddress" name="student[caddress]" value="<%=student.CorrAdress %>" required> -->
         </div>
         <div class="mb-3">
           <label for="postalCode" class="form-label">Postal Code</label>
-          <input type="number" class="form-control" id="postalCode" name="student[postalCode]" value="" required maxlength="6">
+          <input type="number" class="form-control" id="postalCode" name="student[postalCode]" value="<%=student.postalCode %>" required maxlength="6">
         </div>
         <!-- <div class="mb-3">
           <label for="fpaid" class="form-label">Fees Paid</label>
@@ -72,15 +72,16 @@
         </div> -->
         <div class="mb-3">
           <label for="dueFee" class="form-label">Fee Due</label>
-          <input type="number" class="form-control" id="dueFee" name="student[dueFee]" value="" required>
+          <input type="number" class="form-control" id="dueFee" name="student[dueFee]" value="<%=student.dueFee %>" required>
+          <!-- <input type="text" class="form-control" id="dueFee" name="student[dueFee]" value="<%=student.dueFee %>" required> -->
         </div>
         <div class="mb-3">
           <label for="Nationality" class="form-label">Nationality</label>
-          <input type="text" class="form-control" id="Nationality" name="student[Nationality]" value="" required>
+          <input type="text" class="form-control" id="Nationality" name="student[Nationality]" value="<%=student.Nationality %>" required>
         </div>
         <div class="mb-3">
           <label for="Hostel" class="form-label">Hostel</label>
-          <input type="text" class="form-control" id="Hostel" name="student[Hostel]" value="" required>
+          <input type="text" class="form-control" id="Hostel" name="student[Hostel]" value="<%=student.Hostel %>" required>
           <!-- <div class="col-sm-10">
             <div class="form-check">
               <input class="form-check-input" type="radio" name="student[Hostel]" id="hostelyes" value="true" >
@@ -94,15 +95,15 @@
         </div>
         <div class="mb-3">
           <label for="AnnualIncome" class="form-label">Annual Family Income</label>
-          <input type="number" class="form-control" id="AnnualIncome" name="student[AnnualIncome]" value="" required>
+          <input type="number" class="form-control" id="AnnualIncome" name="student[AnnualIncome]" value="<%=student.AnnualIncome %>" required>
         </div>
         <div class="mb-3">
           <label for="City" class="form-label">City</label>
-          <input type="text" class="form-control" id="City" name="student[City]" value="" required>
+          <input type="text" class="form-control" id="City" name="student[City]" value="<%=student.City %>" required>
         </div>
         <div class="mb-3">
           <label for="Password" class="form-label">Password</label>
-          <input type="password" class="form-control" id="Password" name="student[Password]" value="" required>
+          <input type="password" class="form-control" id="Password" name="student[Password]" value="<%=student.Password %>" required>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
